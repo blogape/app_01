@@ -1,8 +1,11 @@
 <template>
-  <div class="ball-list rowflex">
+  <div class="ball-list rowflex" id="selectnumber-id">
     <ul>
       <li v-for="(item,index) of data" :key="index" :item="index">
-        <span :class="{'active':concat.indexOf(item)==-1?false:true}">{{item}} </span>
+        <span
+          :class="{'active':concat.indexOf(item)==-1?false:true}"
+          @click="handleBallClick($event,index,logo)"
+        >{{item}}</span>
       </li>
     </ul>
     <!-- <div class="ball-item" v-for="(item,index) in data" :key="index">
@@ -32,13 +35,18 @@ export default {
     };
   },
   created() {},
-  mounted() {},
+  mounted() {
+    console.log(this.logo);
+  },
   methods: {
-    // handleToggleClick() {}
+    handleBallClick(e, index, logo) {
+      e.target.className= e.target.className=='active'?'':'active';
+     
+    }
   },
   watch: {
     selectdata(val) {
-        switch (val) {
+      switch (val) {
         case "全":
           this.concat = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
           break;

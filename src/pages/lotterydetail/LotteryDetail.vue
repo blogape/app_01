@@ -5,7 +5,7 @@
     <!-- 弹出层 玩法选择  -->
     <lottery-choose v-if="cqssTreeData.length" :treedata="cqssTreeData"></lottery-choose>
     <!-- 时间与近期开奖组件 -->
-    <components-time ></components-time>
+    <components-time></components-time>
     <!-- 提示与赔率 -->
     <lottery-odds></lottery-odds>
     <!-- 点击近期开奖 弹出层 -->

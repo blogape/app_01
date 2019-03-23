@@ -12,7 +12,7 @@
             v-for="(item,index) of treedata"
             :key="index"
             :class="{classred:index==current}"
-            @click="handlePlaySelectClick(index,item.label)"
+            @click="handlePlaySelectClick(index,item.name)"
           >{{item.name}}</li>
         </ul>
       </div>
