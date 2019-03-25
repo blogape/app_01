@@ -14,5 +14,12 @@ export default{
     changeGamePlayValue(state,val){
          state.gamePlayValue=val;
          localStorage.setItem('gameplayvalue',val);
-    }    
+    },
+    //设置算法值
+    handleSumPriceValue(state,val){
+        if(!val){
+            return;
+        }
+        state.handleSumPriceValue=val;
+    }
 }

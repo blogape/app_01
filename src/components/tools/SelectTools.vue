@@ -2,10 +2,7 @@
   <div class="ball-list rowflex" id="selectnumber-id">
     <ul>
       <li v-for="(item,index) of data" :key="index" :item="index">
-        <span
-          :class="{'active':concat.indexOf(item)==-1?false:true}"
-          @click="handleBallClick($event,index,logo)"
-        >{{item}}</span>
+        <span :class="{'active':item.istrue}" @click="handleBallClick($event,index,logo)">{{item.n}}</span>
       </li>
     </ul>
     <!-- <div class="ball-item" v-for="(item,index) in data" :key="index">
@@ -22,7 +19,7 @@ export default {
     },
     selectdata: {
       type: String,
-      default: "大"
+      default: "清"
     },
     logo: {
       type: Number
@@ -36,34 +33,100 @@ export default {
   },
   created() {},
   mounted() {
-    console.log(this.logo);
   },
   methods: {
     handleBallClick(e, index, logo) {
-      e.target.className= e.target.className=='active'?'':'active';
-     
+      //  console.log(this.data[index].istrue=true);
+      this.data[index].istrue = this.data[index].istrue === true ? false : true;
     }
   },
   watch: {
     selectdata(val) {
+      console.log(val);
       switch (val) {
         case "全":
-          this.concat = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+          this.concat = [
+            (this.data[0].istrue = true),
+            (this.data[1].istrue = true),
+            (this.data[2].istrue = true),
+            (this.data[3].istrue = true),
+            (this.data[4].istrue = true),
+            (this.data[5].istrue = true),
+            (this.data[6].istrue = true),
+            (this.data[7].istrue = true),
+            (this.data[8].istrue = true),
+            (this.data[9].istrue = true)
+          ];
           break;
         case "大":
-          this.concat = [5, 6, 7, 8, 9];
+          this.concat = [
+            (this.data[0].istrue = false),
+            (this.data[1].istrue = false),
+            (this.data[2].istrue = false),
+            (this.data[3].istrue = false),
+            (this.data[4].istrue = false),
+            (this.data[5].istrue = true),
+            (this.data[6].istrue = true),
+            (this.data[7].istrue = true),
+            (this.data[8].istrue = true),
+            (this.data[9].istrue = true)
+          ];
           break;
         case "小":
-          this.concat = [0, 1, 2, 3, 4];
+          this.concat = [
+            (this.data[0].istrue = true),
+            (this.data[1].istrue = true),
+            (this.data[2].istrue = true),
+            (this.data[3].istrue = true),
+            (this.data[4].istrue = true),
+            (this.data[5].istrue = false),
+            (this.data[6].istrue = false),
+            (this.data[7].istrue = false),
+            (this.data[8].istrue = false),
+            (this.data[9].istrue = false)
+          ];
           break;
         case "单":
-          this.concat = [1, 3, 5, 7, 9];
+          this.concat = [
+            (this.data[0].istrue = false),
+            (this.data[1].istrue = true),
+            (this.data[2].istrue = false),
+            (this.data[3].istrue = true),
+            (this.data[4].istrue = false),
+            (this.data[5].istrue = true),
+            (this.data[6].istrue = false),
+            (this.data[7].istrue = true),
+            (this.data[8].istrue = false),
+            (this.data[9].istrue = true)
+          ];
           break;
         case "双":
-          this.concat = [0, 2, 4, 6, 8];
+          this.concat = [
+            (this.data[0].istrue = true),
+            (this.data[1].istrue = false),
+            (this.data[2].istrue = true),
+            (this.data[3].istrue = false),
+            (this.data[4].istrue = true),
+            (this.data[5].istrue = false),
+            (this.data[6].istrue = true),
+            (this.data[7].istrue = false),
+            (this.data[8].istrue = true),
+            (this.data[9].istrue = false)
+          ];
           break;
         case "清":
-          this.concat = [];
+          this.concat = [
+            (this.data[0].istrue = false),
+            (this.data[1].istrue = false),
+            (this.data[2].istrue = false),
+            (this.data[3].istrue = false),
+            (this.data[4].istrue = false),
+            (this.data[5].istrue = false),
+            (this.data[6].istrue = false),
+            (this.data[7].istrue = false),
+            (this.data[8].istrue = false),
+            (this.data[9].istrue = false)
+          ];
           break;
       }
     }

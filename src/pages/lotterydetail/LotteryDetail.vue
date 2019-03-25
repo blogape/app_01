@@ -76,6 +76,8 @@ export default {
       // 绑定玩法中心的值
       let playGameFind = "a" + this.gamePlayValue;
       // 查询后的玩法数据绑定
+      // let addTrueTree=a.a[playGameFind].data ? a.a[playGameFind].data : "";
+     
       this.playTreeData = a.a[playGameFind].data ? a.a[playGameFind].data : "";
     },
     // 改变弹出状态

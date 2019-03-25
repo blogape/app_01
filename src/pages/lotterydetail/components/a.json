@@ -6,23 +6,23 @@
         "key":"一星复式",
         "data":[
                 {
-                  "number":[0,1,2,3,4,5,6,7,8,9],
+                  "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
                   "name":"万位"
                  },
                  {
-                  "number":[0,1,2,3,4,5,6,7,8,9],
+                  "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
                   "name":"千位"
                  },
                  {
-                  "number":[0,1,2,3,4,5,6,7,8,9],
+                  "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
                   "name":"百位"
                  },
                  {
-                  "number":[0,1,2,3,4,5,6,7,8,9],
+                  "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
                   "name":"十位"
                  },
                  {
-                  "number":[0,1,2,3,4,5,6,7,8,9],
+                  "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
                   "name":"个位"
                  }
            ]
@@ -32,11 +32,11 @@
         "key":"前二直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"万位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"千位"
            }  
      ]
@@ -60,7 +60,7 @@
         "key":"前二直选跨度",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"跨度"
            }
           ]
@@ -70,7 +70,7 @@
         "key":"前二组选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组选"
            }
           ]
@@ -84,7 +84,7 @@
         "key":"前二组选合值",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false},{"n":10,"istrue":false},{"n":11,"istrue":false},{"n":12,"istrue":false},{"n":13,"istrue":false},{"n":14,"istrue":false},{"n":15,"istrue":false},{"n":16,"istrue":false},{"n":17,"istrue":false}],
             "name":"和值"
            }
      ]
@@ -94,11 +94,11 @@
         "key":"后二直选复式==前二直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"十位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"个位"
            }  
      ]
@@ -121,7 +121,7 @@
         "key":"后二直选跨度==前二直选跨度",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"跨度"
            }
           ]
@@ -131,7 +131,7 @@
         "key":"后二组选复式==前二组选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组选"
            }
           ]
@@ -159,15 +159,15 @@
         "key":"前三直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"万位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"千位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"百位"
            }
           ]
@@ -187,7 +187,7 @@
         "key":"前三直选跨度",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"跨度"
           }
         ]
@@ -207,7 +207,7 @@
         "key":"前三组选组三",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组三"
           }
         ]
@@ -217,7 +217,7 @@
         "key":"前三组选组六",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组六"
           }
         ]
@@ -244,15 +244,15 @@
         "key":"中三直选复式 = 前三直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"千位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"百位"
            },
            {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"十位"
            }
           ]
@@ -272,7 +272,7 @@
         "key":"中三直选跨度 = 前三直选跨度",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"跨度"
           }
         ]
@@ -292,7 +292,7 @@
         "key":"中三组选组三 = 前三组选组三",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组三"
           }
         ]
@@ -302,7 +302,7 @@
         "key":"中三组选组六 = 前三组选组六",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组六"
           }
         ]
@@ -328,15 +328,15 @@
         "key":"后三直选复式 = 前三直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"百位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"十位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"个位"
           }
         ]
@@ -356,7 +356,7 @@
         "key":"后三直选跨度 = 前三直选跨度",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"跨度"
           }
         ]
@@ -376,7 +376,7 @@
         "key":"后三组选组三 = 前三组选组三",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组三"
           }
         ]
@@ -386,7 +386,7 @@
         "key":"后三组选组六 = 前三组选组六",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组六"
           }
         ]
@@ -408,19 +408,19 @@
         "key":"四星直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"千位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"百位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"十位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"个位"
           }
         ]
@@ -434,7 +434,7 @@
         "key":"四星组选24",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组选24"
           }
         ]
@@ -444,11 +444,11 @@
         "key":"四星组选12",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"二重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -458,7 +458,7 @@
         "key":"四星组选6",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"二重号位"
           }
         ]
@@ -468,11 +468,11 @@
         "key":"四星组选4",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"三重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -486,23 +486,23 @@
         "key":"五星直选复式",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"万位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"千位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"百位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"十位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"个位"
           }
         ]
@@ -512,7 +512,7 @@
         "key":"五星组选120",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"组选120"
           }
         ]
@@ -522,11 +522,11 @@
         "key":"五星组选60",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"二重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -536,11 +536,11 @@
         "key":"五星组选30",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"二重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -550,11 +550,11 @@
         "key":"五星组选20",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"三重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -564,11 +564,11 @@
         "key":"五星组选10",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"三重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"二重号位"
           }
         ]
@@ -578,11 +578,11 @@
         "key":"五星组选5",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"四重号位"
           },
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"单号位"
           }
         ]
@@ -592,7 +592,7 @@
         "key":"五星趣味一帆风顺 = 一星复试",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"一帆风顺"
           }
         ]
@@ -602,7 +602,7 @@
         "key":"五星趣味好事成双 = 一星复试",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"好事成双"
           }
         ]
@@ -612,7 +612,7 @@
         "key":"五星趣味三星报喜 = 一星复试",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"三星报喜"
           }
         ]
@@ -622,7 +622,7 @@
         "key":"五星趣味四季发财 = 一星复试",
         "data":[
           {
-            "number":[0,1,2,3,4,5,6,7,8,9],
+            "number":[{"n":0,"istrue":false},{"n":1,"istrue":false},{"n":2,"istrue":false},{"n":3,"istrue":false},{"n":4,"istrue":false},{"n":5,"istrue":false},{"n":6,"istrue":false},{"n":7,"istrue":false},{"n":8,"istrue":false},{"n":9,"istrue":false}],
             "name":"四季发财"
           }
         ]

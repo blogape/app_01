@@ -77,7 +77,7 @@ export default {
     // 玩法跳转 带值传参
     handleKeyClick(key, val) {
       let classArgs = {
-        categories: this.categories || "定位胆",
+        categories: this.categories || "中三",
         class: val
       };
       this.gameTypes(classArgs);

@@ -22,8 +22,14 @@ let gamePlayPopup = false;
 // 玩法初始值设置
 let gamePlayDefaultValue=27;
 
+
+
+// 选中算法数据返回
+let sumPriceNoteValue='';
+
 export default {
     gameTypes: defaultPlay, //玩法类型
     gamePlayPopup: gamePlayPopup, //玩法弹出
-    gamePlayValue:localStorage.getItem('gameplayvalue')||gamePlayDefaultValue //玩法值 (枚举) 涉及到选中的class
+    gamePlayValue:localStorage.getItem('gameplayvalue')||gamePlayDefaultValue, //玩法值 (枚举) 涉及到选中的class
+    handleSumPriceValue:sumPriceNoteValue
 }

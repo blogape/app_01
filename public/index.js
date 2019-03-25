@@ -39,6 +39,7 @@ class CurrentLottery extends Algorithm {
             arraysum[i] = obj;
         }
         this.CurrentObj = { 'data': arraysum, "multiple": arrObj[0].multiple };
+        this.errormsg={msg:'空'};
     }
 
     // 一星复试       // 好事成双  一帆风顺   三星报喜 四季发财
@@ -356,17 +357,22 @@ class CurrentLottery extends Algorithm {
         return data;
     }
 
-
     // 前三直选复式
     PrevThreeMoreValue() {
         // 改
-
+        
         let LotteryObj = this.CurrentObj;
         let lsumArray = LotteryObj.data;
-        let [wan, qian, bai, multiple, totalnote, pricetotal, data] = [lsumArray[0].length, lsumArray[1].length, lsumArray[2].length, LotteryObj.multiple, 0, 0]
-        if (!wan || !qian || !bai || !multiple) {
+
+        if(isNaN(lsumArray[2][0])||isNaN(lsumArray[1][0])||isNaN(lsumArray[0][0])){
             console.error('error 参数错误');
-            return;
+            return ;
+        }
+        let [wan, qian, bai, multiple, totalnote, pricetotal, data] = [lsumArray[0].length, lsumArray[1].length, lsumArray[2].length, LotteryObj.multiple, 0, 0]
+        if (!wan || !qian || !bai ) {
+            console.error('error 参数错误');
+        
+            return ;
         }
         totalnote = wan * qian * bai;
         pricetotal = totalnote * 2 * multiple;

@@ -25,7 +25,8 @@ export default {
   created() {},
   methods: {
     handleAllClick(val) {
-        this.$emit('handleToosBack',val);
+     
+      this.$emit('handleToosBack',val);
     }
   }
 };

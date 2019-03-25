@@ -2,7 +2,7 @@
   <div class="lottery_footer rowflex" :style="style">
     <div class="price rowflex">
       <div class="price_zhu">
-        共 <span>2</span> 注 共 <span>222</span>元
+        共 <span>{{handleSumPriceValue.totalnote||0}}</span> 注 共 <span>{{handleSumPriceValue.pricetotal||0}}</span>元
       </div>
       <div class="price_money">
         单住最多可赢利 <span>389389</span> 元
@@ -31,14 +31,22 @@
   </div>
 </template>
 <script>
+import {mapState} from 'vuex'
 export default {
   name: "Footer",
   data() {
     return {
       show: false,
       style: "bottom:0;",
-      value: "0"
+      value: "2"
     };
+  },
+  computed:{
+      ...mapState(['handleSumPriceValue'])
+  },
+  mounted(){
+   
+    console.log(this.handleSumPriceValue);
   },
   watch: {
     show: function(val) {
@@ -47,6 +55,12 @@ export default {
       } else {
         this.style = "bottom:0rem;";
       }
+    },
+    handleSumPriceValue(val){
+      console.log(val);
+       if(!val){
+         alert('123');
+       }
     }
   },
   methods: {
